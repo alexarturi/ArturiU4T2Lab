@@ -4,8 +4,8 @@ public class Runner {
         System.out.println(loops.countCharacters("a", "Apple and banana"));
         System.out.println(loops.countCharacters("A", "Apple and banana"));
         System.out.println(loops.countCharacters("!", "Hello! Nice day!"));
-        System.out.println(loops.reverseString("hello!"));
-        System.out.println(loops.reverseString("Apples and bananas"));
+        System.out.println(loops.reverseString2("hello!"));
+        System.out.println(loops.reverseString2("Apples and bananas"));
 
 
     }

@@ -23,4 +23,13 @@ public class StringLoops {
         }
         return newString;
     }
+
+    public String reverseString2(String origString){
+        String newString = "";
+        for (int i = 0; i<origString.length(); i++){
+            String ch = origString.substring(i, i+1);
+            newString = ch + newString;
+        }
+        return newString;
+    }
 }
